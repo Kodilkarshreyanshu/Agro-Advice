@@ -1,0 +1,133 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'CSS/.css' %}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<style>
+    .container-crp-crop {
+        text-align: center;
+        margin-top: 100px; /* Adjust margin-top to create a gap */
+    }
+    /* Add any additional CSS styles here */
+    .submit-button {
+        background-color: #6f42c1;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        display: inline-block; /* Ensure button only takes up necessary space */
+        width: auto; /* Adjust width as needed */
+    }
+    .submit-button:hover {
+        background-color: #563d7c;
+    }
+    /* Add margin to the text boxes */
+    .crop-form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .language-section {
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    .custom-radio-group {
+        display: flex;
+        align-items: center;
+    }
+
+    .custom-radio {
+        margin-right: 60px;
+        margin-top: 10px;
+    }
+
+    .submit-button {
+        margin-left: auto; /* Push submit button to the end */
+    }
+
+    .submit-button input[type="submit"] {
+        background-color: #6f42c1;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        display: inline-block;
+        width: auto;
+    }
+
+    .submit-button input[type="submit"]:hover {
+        background-color: #563d7c;
+    }
+
+
+</style>
+<div class="container-crp-crop">
+    
+    <form method="post" action="{% url 'input_data' option=option %}">
+        {% csrf_token %}
+        <label for="ph" class="animate__animated animate__fadeInUp">pH:</label>
+        <input type="text" id="ph" name="ph" class="input-field animate__animated animate__fadeInUp"><br>
+        <label for="temperature" class="animate__animated animate__fadeInUp">Temperature:</label>
+        <input type="text" id="temperature" name="temperature" class="input-field animate__animated animate__fadeInUp"><br>
+        
+        <label for="rainfall" class="animate__animated animate__fadeInUp">Rainfall:</label>
+        <input type="text" id="rainfall" name="rainfall" class="input-field animate__animated animate__fadeInUp"><br>
+        <div class="crop-form-group">
+            <button type="button" class="btn btn-info" onclick="startRecording()">Speak Input</button>
+        </div>
+        <div class="crop-form-group">
+            <div class="language-section">
+                <label for="en">Select Language:</label>
+                <div class="custom-radio-group">
+                    <div class="custom-radio">
+                        <input type="radio" id="en" name="language" value="en" checked>
+                        <label for="en">English</label>
+                    </div>
+                    <div class="custom-radio">
+                        <input type="radio" id="hi" name="language" value="hi">
+                        <label for="hi">Hindi</label>
+                    </div>
+                    <div class="custom-radio">
+                        <input type="radio" id="mr" name="language" value="mr">
+                        <label for="mr">Marathi</label>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <input type="submit" value="Submit" class="submit-button animate__animated animate__fadeInUp">
+        
+        
+        
+
+    </form>
+    <script>
+        function startRecording() {
+            const recognition = new webkitSpeechRecognition(); // For Chrome
+    
+            recognition.onresult = (event) => {
+                const speechToText = event.results[0][0].transcript.toLowerCase();
+                const inputFields = document.querySelectorAll('input[type="number"], input[type="text"]');
+                for (const inputField of inputFields) {
+                    if (!inputField.value) {
+                        inputField.value = speechToText;
+                        break;
+                    }
+                }
+    
+                // Check if the spoken text contains "submit"
+                if (speechToText.includes("submit")) {
+                    // Trigger form submission
+                    document.querySelector('form').submit();
+                }
+            };
+    
+            recognition.start();
+        }
+    </script>
+    
+</div>
+{% endblock %}

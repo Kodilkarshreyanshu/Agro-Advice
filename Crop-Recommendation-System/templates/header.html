@@ -1,0 +1,153 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'bootstrap/bootstrap.min.css' %}">
+    
+        <!-- <link rel="shortcut icon" href="{% static 'images/logo1.jpg' %}" /> -->
+
+  
+    <style>
+        /* set the text color of the navbar brand and menu options */
+        .navbar-light .navbar-brand,
+        .navbar-light .navbar-nav .nav-link {
+            color: #6f42c1;
+            
+        }
+
+        /* set the hover and focus color of the menu options */
+        .navbar-light .navbar-nav .nav-link:hover,
+        .navbar-light .navbar-nav .nav-link:focus {
+            color: #fff;
+            background-color: #6f42c1;
+        }
+
+        /* set the background color of the navbar */
+        .bg-white {
+            background-color: #fff;
+        }
+
+        /* add a small border around the navbar container */
+        .border-rounded {
+            border: 1px solid #ddd;
+            border-radius: 0.25rem;
+        }
+
+        /* set the background color and text color of the "Get Started" button */
+        .btn-purple {
+            background-color: #6f42c1;
+            color: #fff;
+        }
+
+        /* set the hover and focus background color of the "Get Started" button */
+        .btn-purple:hover,
+        .btn-purple:focus {
+            background-color: #563d7c;
+        }
+
+        .nav-link {
+            margin-right: 1rem;
+            margin-left: 1rem;
+        }
+    </style>
+</head>
+
+
+<body>
+
+
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border rounded fixed-top transparent-bg">
+       
+        <div class="container">
+            <a class="navbar-brand text-purple" href="#">
+                <span class="h4 mb-0 ms-2">AgroAdvice</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-purple" href="{% url 'home' %}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-purple" href="{% url 'predictor' %}">Crop Prediction</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-purple" href="{% url 'fert_recommend' %}">Fertilizer </a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link text-purple" href="{% url 'crop_search' %}">Crop Details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-purple" href="{% url 'pair_crop_page' %}">Inter-Cropping</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-purple" href="{% url 'news' %}">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-purple" href="{% url 'contact' %}">Contact Us</a>
+                    </li>
+                    
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+    <!-- <div id="google_element"></div> -->
+</header>
+ <script>
+    
+    $(document).ready(function () {
+        // Function to update the header based on scroll position
+        function updateHeader() {
+            var scroll = $(window).scrollTop();
+            var header = $(".navbar");
+
+            // Add or remove the transparent background class based on scroll position
+            if (scroll <= 0) {
+                header.removeClass("bg-white");
+                header.addClass("transparent-bg");
+            } else {
+                header.removeClass("transparent-bg");
+                header.addClass("bg-white");
+            }
+        }
+
+        // Call the updateHeader function on page load
+        updateHeader();
+
+        // Call the updateHeader function on scroll
+        $(window).scroll(function () {
+            updateHeader();
+        });
+    });
+</script>
+
+ </script>
+
+ <script src="{% static 'Javascript/jquery.min.js' %}"></script>
+ <script src="{% static 'bootstrap/bootstrap.bundle.min.js' %}"></script>
+
+   
+   <!-- <script 
+   src="https://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate">
+    </script>
+
+   <script>
+    function loadGoogleTranslate(){
+        new google.translate.TranslateElement("google_element");
+    }
+   </script> -->

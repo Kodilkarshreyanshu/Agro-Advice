@@ -1,0 +1,801 @@
+﻿ph,temperature,rainfall,crops
+6,20.61,38.73,Kale - Arugula
+6.4,17.34,36.64,Kale - Arugula
+6.4,17.99,38.99,Kale - Arugula
+6.5,16.53,32.24,Kale - Arugula
+6.1,17.34,37.37,Kale - Arugula
+5.7,22.37,37.02,Kale - Arugula
+5.6,16.28,35.87,Kale - Arugula
+5.6,21.99,31.52,Kale - Arugula
+6,17.6,34.79,Kale - Arugula
+6.5,18.07,39.05,Kale - Arugula
+6.1,15.28,37.44,Kale - Arugula
+5.5,19.35,31.73,Kale - Arugula
+5.9,20.12,37.33,Kale - Arugula
+6,22.63,34.98,Kale - Arugula
+6,19.4,39.71,Kale - Arugula
+6.4,23.39,31.22,Kale - Arugula
+5.5,18.38,37.34,Kale - Arugula
+5.9,16.4,39.53,Kale - Arugula
+6,18,34.07,Kale - Arugula
+5.9,23.9,34.95,Kale - Arugula
+6,21.4,33.9,Kale - Arugula
+6,15.07,32.12,Kale - Arugula
+5.5,22.53,35.78,Kale - Arugula
+5.8,20.63,31.61,Kale - Arugula
+5.8,21.02,39.52,Kale - Arugula
+5.9,22.84,33.96,Kale - Arugula
+6.2,20.09,33.18,Kale - Arugula
+5.6,19.85,38.94,Kale - Arugula
+5.6,18.45,30.97,Kale - Arugula
+5.9,24.58,35.86,Kale - Arugula
+5.8,15.69,38.34,Kale - Arugula
+5.7,15.7,37.59,Kale - Arugula
+6.3,17.5,30.82,Kale - Arugula
+6.4,22.1,33.52,Kale - Arugula
+6,20.6,37.78,Kale - Arugula
+5.8,20.94,33.46,Kale - Arugula
+5.6,22.84,38.36,Kale - Arugula
+5.6,24.34,30.62,Kale - Arugula
+6.2,20.89,30.22,Kale - Arugula
+6.5,20.29,37.69,Kale - Arugula
+5.7,17.47,33.03,Kale - Arugula
+6.1,16.07,33.96,Kale - Arugula
+6.1,15.67,34.67,Kale - Arugula
+6.4,16.33,36.5,Kale - Arugula
+5.9,22.2,32.76,Kale - Arugula
+6.2,18.05,37.2,Kale - Arugula
+6.3,25,37.93,Kale - Arugula
+6.3,24.88,33.12,Kale - Arugula
+6.2,15.07,37.14,Kale - Arugula
+6.2,23.23,39.36,Kale - Arugula
+6.1,24.32,31.62,Kale - Arugula
+5.7,16.07,35.93,Kale - Arugula
+6,21.46,30.47,Kale - Arugula
+6.5,17.98,35.72,Kale - Arugula
+5.9,16.22,33.53,Kale - Arugula
+5.8,22.67,38.18,Kale - Arugula
+5.6,21.57,33.34,Kale - Arugula
+5.8,18.64,34.45,Kale - Arugula
+6.3,18.59,30.77,Kale - Arugula
+6.4,24.18,39.86,Kale - Arugula
+5.7,18.81,36.42,Kale - Arugula
+6.3,21.48,34.86,Kale - Arugula
+5.9,18.13,33.85,Kale - Arugula
+6.4,17.31,39.35,Kale - Arugula
+5.7,22.38,30.15,Kale - Arugula
+6.4,22.47,32.81,Kale - Arugula
+6.2,19.99,39.04,Kale - Arugula
+5.7,19.4,36.91,Kale - Arugula
+6.1,17.94,33.98,Kale - Arugula
+6.1,20.51,39.33,Kale - Arugula
+5.6,18.68,33.7,Kale - Arugula
+5.7,20.75,38.97,Kale - Arugula
+5.9,16.53,38.64,Kale - Arugula
+6.2,22.46,32.4,Kale - Arugula
+6.1,20.05,37.25,Kale - Arugula
+6.1,24.3,33.39,Kale - Arugula
+6.1,16.55,32.84,Kale - Arugula
+6.4,22.86,33.38,Kale - Arugula
+6.1,22.4,31.53,Kale - Arugula
+5.9,23.01,39.11,Kale - Arugula
+5.6,22.59,34.99,Kale - Arugula
+5.6,17.13,36.94,Kale - Arugula
+6.5,23.31,36.59,Kale - Arugula
+6.5,23.98,32.94,Kale - Arugula
+5.6,18.06,37.7,Kale - Arugula
+5.9,21.44,30.63,Kale - Arugula
+5.7,24.2,34.92,Kale - Arugula
+6.2,17.72,36.05,Kale - Arugula
+6.1,23.1,37.74,Kale - Arugula
+6.4,20.21,34.75,Kale - Arugula
+5.7,22.46,39.62,Kale - Arugula
+6.1,15.88,38.97,Kale - Arugula
+6,20.84,39.98,Kale - Arugula
+5.6,19.02,38.16,Kale - Arugula
+6.1,16.99,34.34,Kale - Arugula
+6.1,23.52,36.85,Kale - Arugula
+5.8,18.71,31.91,Kale - Arugula
+5.6,16.79,35.34,Kale - Arugula
+6,21.64,37.58,Kale - Arugula
+5.7,21.83,32.78,Kale - Arugula
+6.5,18.98,22.06,Beetroot - Swiss chard
+6.2,18.68,28.24,Beetroot - Swiss chard
+6.7,15.53,22.11,Beetroot - Swiss chard
+6.1,15.36,28.5,Beetroot - Swiss chard
+6.5,16.47,26.14,Beetroot - Swiss chard
+6.3,18.73,25.49,Beetroot - Swiss chard
+6.4,15.42,23.21,Beetroot - Swiss chard
+5.9,16.72,21.04,Beetroot - Swiss chard
+6.4,18.41,26.96,Beetroot - Swiss chard
+6.7,15.51,23.6,Beetroot - Swiss chard
+5.9,15.74,22.51,Beetroot - Swiss chard
+6.3,16.14,22.82,Beetroot - Swiss chard
+7,17.57,24.64,Beetroot - Swiss chard
+6.9,17.21,22.84,Beetroot - Swiss chard
+6.6,17.25,23.15,Beetroot - Swiss chard
+6.9,17.56,21.82,Beetroot - Swiss chard
+6.3,15.22,28.64,Beetroot - Swiss chard
+6.3,18.64,27.69,Beetroot - Swiss chard
+6.9,18.38,27.1,Beetroot - Swiss chard
+6.3,15.07,24.87,Beetroot - Swiss chard
+6.3,18.44,21.4,Beetroot - Swiss chard
+6.7,15.14,28.34,Beetroot - Swiss chard
+7,17.91,29.23,Beetroot - Swiss chard
+6.6,16.79,24.75,Beetroot - Swiss chard
+6.1,15.64,23.55,Beetroot - Swiss chard
+5.9,17.56,23.53,Beetroot - Swiss chard
+5.9,16.14,23.06,Beetroot - Swiss chard
+6.6,16.54,22.6,Beetroot - Swiss chard
+6.7,15.79,29.25,Beetroot - Swiss chard
+6.2,18.85,25.85,Beetroot - Swiss chard
+6.2,15.77,21.15,Beetroot - Swiss chard
+5.9,16.18,26.09,Beetroot - Swiss chard
+7,15.93,25.46,Beetroot - Swiss chard
+5.9,16.06,23.06,Beetroot - Swiss chard
+6.4,15.22,23.91,Beetroot - Swiss chard
+6.2,17.47,28.44,Beetroot - Swiss chard
+5.9,18.77,27.87,Beetroot - Swiss chard
+6.7,15.09,20.03,Beetroot - Swiss chard
+6.3,18.7,21.9,Beetroot - Swiss chard
+6,17.35,26.42,Beetroot - Swiss chard
+6.6,15.01,29.72,Beetroot - Swiss chard
+6.9,18.85,24.04,Beetroot - Swiss chard
+6,17.14,23.67,Beetroot - Swiss chard
+7,17.35,27.19,Beetroot - Swiss chard
+6.8,16.77,26.89,Beetroot - Swiss chard
+6.4,17.75,27.5,Beetroot - Swiss chard
+6.4,18.07,22.04,Beetroot - Swiss chard
+6.2,18.12,27.37,Beetroot - Swiss chard
+6.5,16.2,22.4,Beetroot - Swiss chard
+6.5,18.87,22.33,Beetroot - Swiss chard
+6.6,17.25,20.49,Beetroot - Swiss chard
+6.1,16.09,24.27,Beetroot - Swiss chard
+6.4,16.12,27.75,Beetroot - Swiss chard
+6.2,18.06,20.71,Beetroot - Swiss chard
+6,17.32,28.17,Beetroot - Swiss chard
+6.9,15.53,29.24,Beetroot - Swiss chard
+6.5,17.1,25.24,Beetroot - Swiss chard
+6.6,18.76,21.1,Beetroot - Swiss chard
+7,18.65,29.29,Beetroot - Swiss chard
+6.2,16.33,25.27,Beetroot - Swiss chard
+6.6,15.98,27.66,Beetroot - Swiss chard
+6.5,16.48,27.01,Beetroot - Swiss chard
+6.1,17.87,29.87,Beetroot - Swiss chard
+6.1,18.32,21.14,Beetroot - Swiss chard
+7,18.23,21.54,Beetroot - Swiss chard
+6.2,18.55,23.97,Beetroot - Swiss chard
+6.4,16.3,23.1,Beetroot - Swiss chard
+6.7,17.82,21.39,Beetroot - Swiss chard
+6.4,17.16,23.62,Beetroot - Swiss chard
+7,15.37,24.32,Beetroot - Swiss chard
+6.2,16.96,24.98,Beetroot - Swiss chard
+6.9,16.63,22.37,Beetroot - Swiss chard
+6.5,18.13,20.42,Beetroot - Swiss chard
+6.9,18.65,26.27,Beetroot - Swiss chard
+6.6,16.24,28.2,Beetroot - Swiss chard
+6.1,17.35,28.13,Beetroot - Swiss chard
+6.1,16.4,21.64,Beetroot - Swiss chard
+6.2,15.43,26.32,Beetroot - Swiss chard
+5.9,15.35,23.11,Beetroot - Swiss chard
+6.9,15.21,28.73,Beetroot - Swiss chard
+5.9,15.67,24.32,Beetroot - Swiss chard
+6.7,18.14,27.09,Beetroot - Swiss chard
+6.4,17.68,23.81,Beetroot - Swiss chard
+6.2,17.29,25.61,Beetroot - Swiss chard
+6.1,18.38,29.52,Beetroot - Swiss chard
+6.1,17.14,28.45,Beetroot - Swiss chard
+6.2,16.37,29.46,Beetroot - Swiss chard
+6,18.74,22.68,Beetroot - Swiss chard
+6.5,17.18,24.05,Beetroot - Swiss chard
+6,17.72,23.69,Beetroot - Swiss chard
+6.6,18.56,26.28,Beetroot - Swiss chard
+5.9,18.35,21.11,Beetroot - Swiss chard
+6.3,17.26,20.9,Beetroot - Swiss chard
+6.2,18.5,26.95,Beetroot - Swiss chard
+6,15.08,24.09,Beetroot - Swiss chard
+6.2,17,26.71,Beetroot - Swiss chard
+6.3,18.86,29.89,Beetroot - Swiss chard
+6.2,16.46,24.4,Beetroot - Swiss chard
+5.9,16.72,23.24,Beetroot - Swiss chard
+6.1,17.39,21.19,Beetroot - Swiss chard
+6.7,25.85,137.01,Sesame - Chickpea
+6.6,25.91,137.19,Sesame - Chickpea
+6.8,26.39,123.22,Sesame - Chickpea
+7,26.42,103.03,Sesame - Chickpea
+6.5,26.48,131.41,Sesame - Chickpea
+7,26.39,80.84,Sesame - Chickpea
+6.5,27.72,109.55,Sesame - Chickpea
+6.7,28.03,132.92,Sesame - Chickpea
+6.8,28.84,133.96,Sesame - Chickpea
+6.7,29.73,137.62,Sesame - Chickpea
+6.6,29.48,122.18,Sesame - Chickpea
+6.5,25.76,105.35,Sesame - Chickpea
+6.6,25.29,84.92,Sesame - Chickpea
+6.8,25.72,122.82,Sesame - Chickpea
+7,28.43,145.46,Sesame - Chickpea
+6.7,26.99,80.89,Sesame - Chickpea
+6.8,29.48,132.79,Sesame - Chickpea
+6.9,29.72,93.55,Sesame - Chickpea
+6.5,29.09,125.05,Sesame - Chickpea
+6.6,25.44,137.92,Sesame - Chickpea
+7,25.31,144.83,Sesame - Chickpea
+6.9,28.74,128.13,Sesame - Chickpea
+7,27.57,143.99,Sesame - Chickpea
+6.6,28.14,109.92,Sesame - Chickpea
+6.6,28.59,89.91,Sesame - Chickpea
+6.6,25.93,145.52,Sesame - Chickpea
+6.9,28.05,143.91,Sesame - Chickpea
+7,29.88,117.36,Sesame - Chickpea
+6.9,29.85,138.73,Sesame - Chickpea
+6.8,25.78,146.21,Sesame - Chickpea
+6.9,28.48,136.24,Sesame - Chickpea
+6.7,27.68,103.72,Sesame - Chickpea
+6.7,28.98,82.08,Sesame - Chickpea
+7,27.08,128.05,Sesame - Chickpea
+6.6,29.24,80.23,Sesame - Chickpea
+6.6,29,148.67,Sesame - Chickpea
+6.7,27.81,104.14,Sesame - Chickpea
+6.9,29.78,119.72,Sesame - Chickpea
+6.7,29.94,103.05,Sesame - Chickpea
+6.9,28.86,126.97,Sesame - Chickpea
+6.9,27.02,93.78,Sesame - Chickpea
+6.8,29.66,84.69,Sesame - Chickpea
+6.9,26.81,83.21,Sesame - Chickpea
+6.9,26.02,126.43,Sesame - Chickpea
+7,27.63,88.35,Sesame - Chickpea
+6.7,25.56,138.31,Sesame - Chickpea
+6.6,25.61,108.48,Sesame - Chickpea
+7,29.36,134.55,Sesame - Chickpea
+6.9,25.07,129.54,Sesame - Chickpea
+6.7,29.36,97.37,Sesame - Chickpea
+6.9,26.05,138.89,Sesame - Chickpea
+6.7,27.25,120.14,Sesame - Chickpea
+6.5,27.33,88.15,Sesame - Chickpea
+6.6,29.63,149.45,Sesame - Chickpea
+6.8,25.34,144.58,Sesame - Chickpea
+6.7,27.99,121.97,Sesame - Chickpea
+7,26.78,115.99,Sesame - Chickpea
+6.5,26.9,86.41,Sesame - Chickpea
+6.8,28.97,98.63,Sesame - Chickpea
+6.7,25.55,90.39,Sesame - Chickpea
+6.9,25.87,119.29,Sesame - Chickpea
+6.9,28.03,118.27,Sesame - Chickpea
+6.7,25.42,93.87,Sesame - Chickpea
+6.6,25,103.3,Sesame - Chickpea
+6.6,27.28,109.08,Sesame - Chickpea
+6.7,29.91,134.01,Sesame - Chickpea
+6.8,27.94,93.86,Sesame - Chickpea
+7,28.58,88.78,Sesame - Chickpea
+6.7,26,127.2,Sesame - Chickpea
+6.7,25.48,123.75,Sesame - Chickpea
+6.7,28.53,95.6,Sesame - Chickpea
+6.7,26.17,132.18,Sesame - Chickpea
+6.6,27.94,143.49,Sesame - Chickpea
+6.6,26.64,122.27,Sesame - Chickpea
+6.5,29.51,113.65,Sesame - Chickpea
+6.8,25.21,136.18,Sesame - Chickpea
+6.6,26.46,129.72,Sesame - Chickpea
+7,26.69,141.27,Sesame - Chickpea
+6.8,25.34,149.91,Sesame - Chickpea
+6.7,27.88,114.14,Sesame - Chickpea
+6.6,25.73,124.67,Sesame - Chickpea
+6.9,25.64,145.39,Sesame - Chickpea
+6.9,26.74,110.88,Sesame - Chickpea
+6.6,25.11,81.97,Sesame - Chickpea
+6.7,28.38,143.98,Sesame - Chickpea
+6.9,25.2,139.42,Sesame - Chickpea
+6.8,29.06,146.69,Sesame - Chickpea
+6.7,26.55,112.01,Sesame - Chickpea
+6.7,29.48,128.44,Sesame - Chickpea
+6.9,27.98,110.23,Sesame - Chickpea
+6.6,28.88,123.55,Sesame - Chickpea
+6.8,26.14,89.06,Sesame - Chickpea
+7,25.68,129.78,Sesame - Chickpea
+6.8,27.41,87.02,Sesame - Chickpea
+6.7,26.6,97.31,Sesame - Chickpea
+6.6,27.31,96.1,Sesame - Chickpea
+6.8,29.61,133.82,Sesame - Chickpea
+6.6,27.13,89.16,Sesame - Chickpea
+6.5,27.98,93.74,Sesame - Chickpea
+6.6,27.17,99.52,Sesame - Chickpea
+6.1,24.74,103.26,Pearl millet - Green gram
+6,22.05,109.03,Pearl millet - Green gram
+6.5,24.84,97.88,Pearl millet - Green gram
+6.4,20.26,84.83,Pearl millet - Green gram
+6,23.11,113.94,Pearl millet - Green gram
+6.2,20.82,115.53,Pearl millet - Green gram
+6.1,23.96,88.26,Pearl millet - Green gram
+6.4,22.35,118.69,Pearl millet - Green gram
+6.4,24.57,110.15,Pearl millet - Green gram
+6.4,22.09,92.78,Pearl millet - Green gram
+6.3,22.81,118.2,Pearl millet - Green gram
+6.1,23.37,93.52,Pearl millet - Green gram
+6.2,21.92,106.69,Pearl millet - Green gram
+6.1,20.99,112.89,Pearl millet - Green gram
+6.4,23.44,116.98,Pearl millet - Green gram
+6.3,20.23,108.52,Pearl millet - Green gram
+6.1,21.25,98.59,Pearl millet - Green gram
+6.2,23.89,88.06,Pearl millet - Green gram
+6.5,20.74,84.91,Pearl millet - Green gram
+6.4,24.66,116.17,Pearl millet - Green gram
+6,23.82,98.81,Pearl millet - Green gram
+6.3,21.88,96.94,Pearl millet - Green gram
+6.4,24.43,91.56,Pearl millet - Green gram
+6,21.12,104.92,Pearl millet - Green gram
+6.3,20.03,119.44,Pearl millet - Green gram
+6.2,24.05,105.11,Pearl millet - Green gram
+6.1,24.04,91.45,Pearl millet - Green gram
+6.1,23.21,119.15,Pearl millet - Green gram
+6.2,20.9,101.84,Pearl millet - Green gram
+6.1,23.3,108.23,Pearl millet - Green gram
+6.3,21.32,83.4,Pearl millet - Green gram
+6.4,20.89,94.03,Pearl millet - Green gram
+6.4,22.17,83.91,Pearl millet - Green gram
+6,24.83,81.51,Pearl millet - Green gram
+6.3,22.96,115.66,Pearl millet - Green gram
+6.2,21.82,118.38,Pearl millet - Green gram
+6.2,23.57,100.92,Pearl millet - Green gram
+6.1,21.8,89.49,Pearl millet - Green gram
+6.4,24.78,92.31,Pearl millet - Green gram
+6.1,21.77,89.86,Pearl millet - Green gram
+6.1,21.06,86.3,Pearl millet - Green gram
+6.3,23.5,84.56,Pearl millet - Green gram
+6.1,24.37,106.2,Pearl millet - Green gram
+6.2,23.39,105.54,Pearl millet - Green gram
+6.4,24.89,109.54,Pearl millet - Green gram
+6.3,20.38,81.8,Pearl millet - Green gram
+6.4,23.06,81.93,Pearl millet - Green gram
+6.1,22.59,111.06,Pearl millet - Green gram
+6.4,20.06,87.34,Pearl millet - Green gram
+6.5,24.39,97.1,Pearl millet - Green gram
+6.1,23.43,87.4,Pearl millet - Green gram
+6.2,21.81,102.96,Pearl millet - Green gram
+6.4,20.39,102.53,Pearl millet - Green gram
+6.2,20.51,85.51,Pearl millet - Green gram
+6.4,24.95,107.55,Pearl millet - Green gram
+6.3,24.38,84.73,Pearl millet - Green gram
+6.3,22.37,105.89,Pearl millet - Green gram
+6.4,23.15,94.28,Pearl millet - Green gram
+6.2,21.79,80.7,Pearl millet - Green gram
+6.1,22.25,110.29,Pearl millet - Green gram
+6,24.92,113.69,Pearl millet - Green gram
+6.4,24.65,117.41,Pearl millet - Green gram
+6.3,23.27,102.6,Pearl millet - Green gram
+6.1,20.41,89.86,Pearl millet - Green gram
+6.1,24.51,108.67,Pearl millet - Green gram
+6.2,24.72,101.96,Pearl millet - Green gram
+6.2,21.98,94.23,Pearl millet - Green gram
+6,24.43,109.21,Pearl millet - Green gram
+6.4,22.98,119.81,Pearl millet - Green gram
+6.2,21,91.65,Pearl millet - Green gram
+6.4,23.21,94.88,Pearl millet - Green gram
+6.5,23.09,87.81,Pearl millet - Green gram
+6.1,20.24,114.95,Pearl millet - Green gram
+6.1,22.72,83.87,Pearl millet - Green gram
+6.5,20.92,118.23,Pearl millet - Green gram
+6.2,20.37,109.87,Pearl millet - Green gram
+6.1,20.68,92.23,Pearl millet - Green gram
+6.4,22.59,81.53,Pearl millet - Green gram
+6.4,23.44,103.44,Pearl millet - Green gram
+6.1,21.74,115.42,Pearl millet - Green gram
+6.4,22.12,90.08,Pearl millet - Green gram
+6.3,21.74,97.47,Pearl millet - Green gram
+6.5,21.08,93.9,Pearl millet - Green gram
+6.4,20.07,91.83,Pearl millet - Green gram
+6.1,23.38,95.14,Pearl millet - Green gram
+6.2,24.53,83.1,Pearl millet - Green gram
+6.4,24.39,86.37,Pearl millet - Green gram
+6.3,22.65,113.58,Pearl millet - Green gram
+6.1,23.71,102.79,Pearl millet - Green gram
+6.4,24.18,107.3,Pearl millet - Green gram
+6.1,24.75,91.8,Pearl millet - Green gram
+6.2,23.05,101.04,Pearl millet - Green gram
+6.3,21.1,85.77,Pearl millet - Green gram
+6.4,22.14,103.65,Pearl millet - Green gram
+6.4,24.97,101.55,Pearl millet - Green gram
+6,21.95,107.49,Pearl millet - Green gram
+6.3,24.89,96.32,Pearl millet - Green gram
+6.2,20.97,99.3,Pearl millet - Green gram
+6.2,24.02,90.08,Pearl millet - Green gram
+6,22.02,108.28,Pearl millet - Green gram
+6.4,23.63,53.67,Wheat - Mung bean
+6.5,20.29,57.61,Wheat - Mung bean
+6.2,24.4,58.09,Wheat - Mung bean
+6.3,19.75,55.88,Wheat - Mung bean
+6.1,22.76,59.42,Wheat - Mung bean
+6.5,22.1,52.83,Wheat - Mung bean
+6.4,21.41,59.19,Wheat - Mung bean
+6.3,18.25,51.44,Wheat - Mung bean
+6.2,24.37,56.51,Wheat - Mung bean
+6.2,18,50.17,Wheat - Mung bean
+6.4,23.44,51.07,Wheat - Mung bean
+6,24.5,50.41,Wheat - Mung bean
+6.2,18.97,58.92,Wheat - Mung bean
+6.5,23.77,51.89,Wheat - Mung bean
+6.4,19.66,58.55,Wheat - Mung bean
+6.4,19.62,52.54,Wheat - Mung bean
+6.4,24.47,51.27,Wheat - Mung bean
+6.4,21.14,58.17,Wheat - Mung bean
+6.2,19.85,50.37,Wheat - Mung bean
+6.5,21.38,56.59,Wheat - Mung bean
+6.2,22.5,53.52,Wheat - Mung bean
+6,20.28,57.78,Wheat - Mung bean
+6.3,18.51,55.85,Wheat - Mung bean
+6.2,21.92,57.92,Wheat - Mung bean
+6.1,20.85,57.81,Wheat - Mung bean
+6.1,20.15,58.62,Wheat - Mung bean
+6.1,22.37,55.89,Wheat - Mung bean
+6.3,23.37,53.58,Wheat - Mung bean
+6.4,18.37,54.81,Wheat - Mung bean
+6.1,19.36,55.31,Wheat - Mung bean
+6.2,20.44,54.53,Wheat - Mung bean
+6.4,23.34,54.43,Wheat - Mung bean
+6.3,20.2,55.79,Wheat - Mung bean
+6.5,21.76,55.87,Wheat - Mung bean
+6,22.58,54.34,Wheat - Mung bean
+6.2,20.56,54.04,Wheat - Mung bean
+6.2,19.49,57.51,Wheat - Mung bean
+6.2,24.12,59.28,Wheat - Mung bean
+6.5,24.76,50.9,Wheat - Mung bean
+6.3,20.03,59.27,Wheat - Mung bean
+6.3,18.63,52.91,Wheat - Mung bean
+6.4,20.02,52.3,Wheat - Mung bean
+6.2,20.14,56.89,Wheat - Mung bean
+6,20.94,50.06,Wheat - Mung bean
+6.3,21.79,50.14,Wheat - Mung bean
+6.1,24.22,54.12,Wheat - Mung bean
+6,18.16,54.32,Wheat - Mung bean
+6.5,23.07,51.73,Wheat - Mung bean
+6.2,19.64,56.31,Wheat - Mung bean
+6.1,22.68,57.4,Wheat - Mung bean
+6.2,20.36,52.13,Wheat - Mung bean
+6.2,20.56,53.19,Wheat - Mung bean
+6.1,24.31,59.58,Wheat - Mung bean
+6.3,24.88,53.27,Wheat - Mung bean
+6.2,20.74,56.5,Wheat - Mung bean
+6.3,20.65,52.8,Wheat - Mung bean
+6.4,20.44,58.46,Wheat - Mung bean
+6,20.49,54.58,Wheat - Mung bean
+6.4,21.33,53.86,Wheat - Mung bean
+6.1,22.71,50.34,Wheat - Mung bean
+6.5,18.83,52.34,Wheat - Mung bean
+6.1,23.46,50,Wheat - Mung bean
+6.1,23.09,59.73,Wheat - Mung bean
+6.1,18.39,50.08,Wheat - Mung bean
+6.5,22.32,55.87,Wheat - Mung bean
+6.4,19.13,55.4,Wheat - Mung bean
+6.2,20.11,53.62,Wheat - Mung bean
+6.2,22.51,54.34,Wheat - Mung bean
+6.2,24.48,57.7,Wheat - Mung bean
+6.4,22.37,50.69,Wheat - Mung bean
+6.1,18.15,59.21,Wheat - Mung bean
+6.4,18.33,53.27,Wheat - Mung bean
+6.2,22.08,57.87,Wheat - Mung bean
+6.3,22.24,55.65,Wheat - Mung bean
+6.3,24.33,50.37,Wheat - Mung bean
+6.1,23.04,58.92,Wheat - Mung bean
+6.2,19.33,52.2,Wheat - Mung bean
+6.3,24.07,51.89,Wheat - Mung bean
+6.2,21.05,52.23,Wheat - Mung bean
+6.3,19.83,57.26,Wheat - Mung bean
+6.2,18.51,52.6,Wheat - Mung bean
+6,24.59,59.81,Wheat - Mung bean
+6.1,22.58,58.88,Wheat - Mung bean
+6.2,24.79,54.15,Wheat - Mung bean
+6.5,22.03,50.6,Wheat - Mung bean
+6.2,22.16,51.01,Wheat - Mung bean
+6.4,19.35,54.79,Wheat - Mung bean
+6.1,19.56,50.98,Wheat - Mung bean
+6.1,19.7,57.33,Wheat - Mung bean
+6,21.59,59.95,Wheat - Mung bean
+6.4,23.26,51.08,Wheat - Mung bean
+6.1,22.21,53,Wheat - Mung bean
+6.1,18.54,59.37,Wheat - Mung bean
+6.3,20.48,58.85,Wheat - Mung bean
+6.4,19.46,50.01,Wheat - Mung bean
+6.2,19.92,58.8,Wheat - Mung bean
+6.4,19.78,55.71,Wheat - Mung bean
+6.3,24.77,57.97,Wheat - Mung bean
+6.1,22.98,58.82,Wheat - Mung bean
+6.5,20.56,58.39,Wheat - Mung bean
+6.4,21.5,84.24,Carrot - Radish
+6,21.54,82.25,Carrot - Radish
+6.4,15.7,76.52,Carrot - Radish
+6.4,13.56,80.14,Carrot - Radish
+6,16.09,79.05,Carrot - Radish
+6.2,15.72,81.58,Carrot - Radish
+6,19.06,83.97,Carrot - Radish
+6.1,15.83,84.38,Carrot - Radish
+6,22.46,88.13,Carrot - Radish
+6.2,19.52,93.05,Carrot - Radish
+6.2,21.13,77.15,Carrot - Radish
+6.2,18.73,82.5,Carrot - Radish
+6.2,17.06,97.75,Carrot - Radish
+6,20.06,80.73,Carrot - Radish
+6.1,17.74,88.08,Carrot - Radish
+6.5,14.22,77.85,Carrot - Radish
+6.5,22.69,91.72,Carrot - Radish
+6.1,14.62,75.4,Carrot - Radish
+6.4,17.45,99.12,Carrot - Radish
+6.1,19.4,84.19,Carrot - Radish
+6.4,15.29,83.27,Carrot - Radish
+6.3,13.37,92.33,Carrot - Radish
+6,13.61,86.28,Carrot - Radish
+6.1,18.33,88.07,Carrot - Radish
+6.3,18.6,92.85,Carrot - Radish
+6.3,21.61,78.32,Carrot - Radish
+6.4,19.68,76.02,Carrot - Radish
+6.4,19.05,85.77,Carrot - Radish
+6.2,15.54,91.37,Carrot - Radish
+6.2,18.28,92.69,Carrot - Radish
+6.5,21.86,78.02,Carrot - Radish
+6.4,15.67,75.77,Carrot - Radish
+6,13.68,79.37,Carrot - Radish
+6.2,14.11,92.47,Carrot - Radish
+6.5,13.53,76.33,Carrot - Radish
+6.4,14.84,94.44,Carrot - Radish
+6.5,15.64,95.17,Carrot - Radish
+6.5,18.13,85.1,Carrot - Radish
+6.3,22.21,97.99,Carrot - Radish
+6.5,15.27,99.13,Carrot - Radish
+6.4,20.86,83,Carrot - Radish
+6.4,14.14,77.51,Carrot - Radish
+6.1,15.83,89.45,Carrot - Radish
+6.3,15.25,90.26,Carrot - Radish
+6.1,14.96,98.34,Carrot - Radish
+6.3,15.96,88.68,Carrot - Radish
+6.3,16.49,83.73,Carrot - Radish
+6.4,22.16,93.75,Carrot - Radish
+6.4,19.56,93.14,Carrot - Radish
+6.3,15.12,86.94,Carrot - Radish
+6.3,19.93,90.94,Carrot - Radish
+6.1,16.96,83.48,Carrot - Radish
+6.4,22.45,76.12,Carrot - Radish
+6.1,19.99,91.42,Carrot - Radish
+6.5,15.62,94.78,Carrot - Radish
+6.4,15.89,89.24,Carrot - Radish
+6.4,19.97,81.97,Carrot - Radish
+6.4,14.36,83.83,Carrot - Radish
+6.2,18.22,93.84,Carrot - Radish
+6.3,20.28,90.39,Carrot - Radish
+6.4,17.8,96.64,Carrot - Radish
+6.2,20.48,82.16,Carrot - Radish
+6.2,14.73,89.29,Carrot - Radish
+6.4,14.63,90.33,Carrot - Radish
+6.2,15.03,92.94,Carrot - Radish
+6.4,18.19,89.13,Carrot - Radish
+6.1,15.78,95.17,Carrot - Radish
+6.4,18.02,96.4,Carrot - Radish
+6.2,20.26,94.23,Carrot - Radish
+6,19.35,81.71,Carrot - Radish
+6.5,20.55,82.39,Carrot - Radish
+6.5,19.27,93.31,Carrot - Radish
+6,17.43,89.79,Carrot - Radish
+6,14.65,82.11,Carrot - Radish
+6.5,16.56,88.12,Carrot - Radish
+6.3,19.31,87.75,Carrot - Radish
+6.5,17.91,98.94,Carrot - Radish
+6.2,22.55,82.09,Carrot - Radish
+6.3,16.16,75.74,Carrot - Radish
+6.4,13.64,98.68,Carrot - Radish
+6,19.74,78.16,Carrot - Radish
+6.1,18.47,86.72,Carrot - Radish
+6,22.54,75.94,Carrot - Radish
+6.2,17.46,91.93,Carrot - Radish
+6.3,15.61,77.29,Carrot - Radish
+6.4,17.48,77.18,Carrot - Radish
+6.2,18.48,87.8,Carrot - Radish
+6.1,14.41,94.87,Carrot - Radish
+6.5,17.66,81.62,Carrot - Radish
+6,13.61,90.97,Carrot - Radish
+6.3,19.72,82.42,Carrot - Radish
+6.5,15.65,90.47,Carrot - Radish
+6.3,16,91.53,Carrot - Radish
+6.2,15.68,96.72,Carrot - Radish
+6.2,13.31,82.63,Carrot - Radish
+6.3,17.4,94.78,Carrot - Radish
+6.2,20.18,76.59,Carrot - Radish
+6.3,21.55,82.74,Carrot - Radish
+6.2,20.19,98.17,Carrot - Radish
+6,22.33,98.44,Carrot - Radish
+6.7,20.1,34.19,Broccoli - Lettuce
+6.9,19.25,25.27,Broccoli - Lettuce
+6.6,18.23,26.12,Broccoli - Lettuce
+6.5,19.41,27.74,Broccoli - Lettuce
+6.7,18.88,29.64,Broccoli - Lettuce
+6.6,19.47,32.96,Broccoli - Lettuce
+6.8,20.88,31.35,Broccoli - Lettuce
+6.7,19.21,29.45,Broccoli - Lettuce
+6.8,21.83,30.73,Broccoli - Lettuce
+6.5,20.11,27.7,Broccoli - Lettuce
+7,19.34,31.07,Broccoli - Lettuce
+6.5,20.29,34.43,Broccoli - Lettuce
+6.7,22.21,34.35,Broccoli - Lettuce
+6.6,19.7,28.97,Broccoli - Lettuce
+6.7,19.11,34.99,Broccoli - Lettuce
+6.8,18.15,34.63,Broccoli - Lettuce
+6.9,19.72,33.68,Broccoli - Lettuce
+6.8,22.71,32.02,Broccoli - Lettuce
+6.8,19.53,32.56,Broccoli - Lettuce
+6.9,20.6,27.01,Broccoli - Lettuce
+6.8,18.89,27.08,Broccoli - Lettuce
+6.6,21.03,26.67,Broccoli - Lettuce
+6.7,20.77,30.7,Broccoli - Lettuce
+6.6,22.6,29.29,Broccoli - Lettuce
+6.8,21.95,31.57,Broccoli - Lettuce
+6.9,18.26,33.13,Broccoli - Lettuce
+7,19.61,31.91,Broccoli - Lettuce
+6.9,22.59,25.8,Broccoli - Lettuce
+6.9,18.69,26.32,Broccoli - Lettuce
+6.9,22.34,31.14,Broccoli - Lettuce
+7,18.48,26.05,Broccoli - Lettuce
+6.5,19.54,26.32,Broccoli - Lettuce
+6.6,23,29.52,Broccoli - Lettuce
+7,20.57,29.47,Broccoli - Lettuce
+6.9,18.92,30.46,Broccoli - Lettuce
+6.9,21.62,28.16,Broccoli - Lettuce
+6.5,21.14,32.96,Broccoli - Lettuce
+6.9,19.59,29.57,Broccoli - Lettuce
+6.7,18.65,32.26,Broccoli - Lettuce
+6.9,20.49,33.35,Broccoli - Lettuce
+6.8,22.24,25.08,Broccoli - Lettuce
+6.6,22.74,34.13,Broccoli - Lettuce
+6.7,18.4,26.86,Broccoli - Lettuce
+7,20.88,25.04,Broccoli - Lettuce
+6.8,18.02,28.79,Broccoli - Lettuce
+6.5,19.34,31.51,Broccoli - Lettuce
+6.9,22.96,27.11,Broccoli - Lettuce
+6.8,19.3,33.63,Broccoli - Lettuce
+6.7,22.42,29.97,Broccoli - Lettuce
+7,19.18,28.93,Broccoli - Lettuce
+6.5,22.83,34.05,Broccoli - Lettuce
+6.7,19.19,33.11,Broccoli - Lettuce
+6.6,19.07,27.16,Broccoli - Lettuce
+6.8,20.5,30.56,Broccoli - Lettuce
+6.6,18.21,25.04,Broccoli - Lettuce
+6.8,20.7,32.09,Broccoli - Lettuce
+6.9,20.47,34.89,Broccoli - Lettuce
+7,20.98,25.85,Broccoli - Lettuce
+7,20.24,28.65,Broccoli - Lettuce
+6.5,21.19,33.51,Broccoli - Lettuce
+6.6,22.94,31.12,Broccoli - Lettuce
+6.7,19.38,31.52,Broccoli - Lettuce
+6.9,19.13,32.77,Broccoli - Lettuce
+6.6,22.65,27.36,Broccoli - Lettuce
+7,21.01,28.36,Broccoli - Lettuce
+6.9,18.61,30.2,Broccoli - Lettuce
+6.9,22.37,26.97,Broccoli - Lettuce
+6.7,21.12,34.59,Broccoli - Lettuce
+6.7,18.44,29.95,Broccoli - Lettuce
+6.6,20.73,29.25,Broccoli - Lettuce
+6.7,20.47,29.97,Broccoli - Lettuce
+7,18.85,31.72,Broccoli - Lettuce
+6.9,19.08,25.67,Broccoli - Lettuce
+6.7,20.27,32.59,Broccoli - Lettuce
+6.9,20.69,27.14,Broccoli - Lettuce
+6.7,19.6,29.43,Broccoli - Lettuce
+6.7,21.48,32.31,Broccoli - Lettuce
+6.9,22.17,27.67,Broccoli - Lettuce
+6.8,18.71,27.19,Broccoli - Lettuce
+6.8,21.81,26.86,Broccoli - Lettuce
+6.6,19.43,30.12,Broccoli - Lettuce
+6.5,19.25,26.79,Broccoli - Lettuce
+6.6,20.08,28.76,Broccoli - Lettuce
+6.8,18.93,32.2,Broccoli - Lettuce
+6.8,21.55,30.85,Broccoli - Lettuce
+7,18.78,26.07,Broccoli - Lettuce
+6.9,19.73,32.17,Broccoli - Lettuce
+6.8,20.46,28.32,Broccoli - Lettuce
+6.9,18.95,33.75,Broccoli - Lettuce
+6.9,21.1,25.44,Broccoli - Lettuce
+7,18.65,30.42,Broccoli - Lettuce
+6.8,19.73,31.26,Broccoli - Lettuce
+6.8,22.34,33.28,Broccoli - Lettuce
+6.7,22.98,27.45,Broccoli - Lettuce
+6.6,22.64,29.9,Broccoli - Lettuce
+6.7,21.06,31.37,Broccoli - Lettuce
+6.6,21.21,26.12,Broccoli - Lettuce
+7,21.9,31.38,Broccoli - Lettuce
+6.6,22.43,28.62,Broccoli - Lettuce
+6.7,19.31,25.71,Broccoli - Lettuce
+6.2,16.53,40.37,Cabbage - Spinach
+6.1,18.68,48.01,Cabbage - Spinach
+6,18.17,48.67,Cabbage - Spinach
+6.4,19.06,41.1,Cabbage - Spinach
+6.3,20.48,42.3,Cabbage - Spinach
+6.3,16.5,45.94,Cabbage - Spinach
+6.3,19.09,42.38,Cabbage - Spinach
+6.4,17.55,43.79,Cabbage - Spinach
+6.2,17.23,45.28,Cabbage - Spinach
+6.3,18.08,43.63,Cabbage - Spinach
+6.3,16.35,44.21,Cabbage - Spinach
+6.2,18.14,48.45,Cabbage - Spinach
+6.2,16.14,45.47,Cabbage - Spinach
+6.2,16.23,44.37,Cabbage - Spinach
+6.1,20.08,49.34,Cabbage - Spinach
+6.4,17.08,40.75,Cabbage - Spinach
+6.1,20.06,50,Cabbage - Spinach
+6.1,19.91,42.18,Cabbage - Spinach
+6.2,20.1,43.37,Cabbage - Spinach
+6.3,15.16,47.13,Cabbage - Spinach
+6,16.5,42.61,Cabbage - Spinach
+6.1,20.59,43.58,Cabbage - Spinach
+6.2,19.26,49.59,Cabbage - Spinach
+6.4,16.85,47.53,Cabbage - Spinach
+6.2,20.32,40.29,Cabbage - Spinach
+6.4,15.07,44.48,Cabbage - Spinach
+6.1,18.92,47.69,Cabbage - Spinach
+6,20.84,43.43,Cabbage - Spinach
+6.1,17.4,45.07,Cabbage - Spinach
+6.4,16.12,45.52,Cabbage - Spinach
+6.5,17.85,46.15,Cabbage - Spinach
+6.4,15.4,42.67,Cabbage - Spinach
+6,17.8,49.78,Cabbage - Spinach
+6.2,17.38,47.48,Cabbage - Spinach
+6.5,16.3,42.2,Cabbage - Spinach
+6.4,15.99,44.26,Cabbage - Spinach
+6.2,20.8,49.61,Cabbage - Spinach
+6.1,18.54,46.21,Cabbage - Spinach
+6.2,17.69,41.94,Cabbage - Spinach
+6.4,20.8,49.94,Cabbage - Spinach
+6.4,17.2,45.92,Cabbage - Spinach
+6.2,15.39,46.27,Cabbage - Spinach
+6,17.12,42.14,Cabbage - Spinach
+6.4,18.49,40.17,Cabbage - Spinach
+6.3,17.66,45.55,Cabbage - Spinach
+6.5,18.56,49.8,Cabbage - Spinach
+6.2,15.88,43.79,Cabbage - Spinach
+6.3,19,40.76,Cabbage - Spinach
+6.2,16.18,41.7,Cabbage - Spinach
+6.1,15.16,40.99,Cabbage - Spinach
+6.2,18.21,43.14,Cabbage - Spinach
+6.3,20.54,45.13,Cabbage - Spinach
+6.3,20.19,45.26,Cabbage - Spinach
+6.4,17.46,42.31,Cabbage - Spinach
+6.2,20.24,46.03,Cabbage - Spinach
+6.2,16.64,47.57,Cabbage - Spinach
+6,18.07,43.23,Cabbage - Spinach
+6.1,17.55,45.14,Cabbage - Spinach
+6.3,19.99,43.49,Cabbage - Spinach
+6.3,17,49.53,Cabbage - Spinach
+6.3,19.53,45.03,Cabbage - Spinach
+6.2,20.51,41.53,Cabbage - Spinach
+6.3,19.16,43.67,Cabbage - Spinach
+6.4,15.01,40.63,Cabbage - Spinach
+6,20.53,48.78,Cabbage - Spinach
+6.4,15.72,49.04,Cabbage - Spinach
+6,18.14,43.08,Cabbage - Spinach
+6.2,15.01,47.21,Cabbage - Spinach
+6.1,16.58,44.42,Cabbage - Spinach
+6.3,15.07,49.49,Cabbage - Spinach
+6.4,19.95,41.05,Cabbage - Spinach
+6,15.24,41.31,Cabbage - Spinach
+6,20.95,46.72,Cabbage - Spinach
+6.2,19.3,46.04,Cabbage - Spinach
+6.1,19.02,45.31,Cabbage - Spinach
+6.4,18.93,44.62,Cabbage - Spinach
+6.2,17.04,43.28,Cabbage - Spinach
+6.3,18.55,43.44,Cabbage - Spinach
+6.4,20.23,47.62,Cabbage - Spinach
+6.1,18.15,42.68,Cabbage - Spinach
+6.2,18.92,42.3,Cabbage - Spinach
+6.1,15.38,45.69,Cabbage - Spinach
+6.2,16.4,41.68,Cabbage - Spinach
+6.5,16.22,41.75,Cabbage - Spinach
+6.4,18.21,42.78,Cabbage - Spinach
+6,18.2,42.64,Cabbage - Spinach
+6.3,16.42,46.48,Cabbage - Spinach
+6.4,20.18,40.97,Cabbage - Spinach
+6.3,20.05,49.26,Cabbage - Spinach
+6.5,18.99,45.57,Cabbage - Spinach
+6.3,18.98,48.35,Cabbage - Spinach
+6.1,17.86,43.85,Cabbage - Spinach
+6.3,18.72,47.34,Cabbage - Spinach
+6.3,16.3,46.26,Cabbage - Spinach
+6.2,20.63,45.97,Cabbage - Spinach
+6.1,19.86,47.68,Cabbage - Spinach
+6.3,20.26,43.26,Cabbage - Spinach
+6.2,20.71,42.57,Cabbage - Spinach
+6.1,16.08,44.83,Cabbage - Spinach
+6.4,18.36,41.76,Cabbage - Spinach

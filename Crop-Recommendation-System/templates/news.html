@@ -1,0 +1,116 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+    
+        .news-container {
+            max-width: 1200px;
+            margin: 50px auto 0; /* Increased top margin */
+        }
+    
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+    
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Increased minimum width to 350px */
+            grid-gap: 20px;
+            justify-content: center;
+        }
+    
+        .news-item {
+            position: relative;
+            overflow: hidden; /* Hide overflowing background image */
+            border: 1px solid rgba(0, 0, 0, 0.2); /* Add border with slightly darker color */
+            background-color: rgba(0, 0, 0, 0.1); /* Add background color with slight transparency */
+            padding: 20px; /* Add padding for better appearance */
+        }
+    
+        .news-item::before {
+            content: url('{% static "images/bg.jpg" %}'); /* Replace with your image URL */
+            opacity: 0; /* Initially hide the background image */
+            width: 100%; /* Ensure box covers the container */
+            height: 100%; /* Ensure box covers the container */
+            background-color: rgba(0, 0, 0, 0.7); /* Example background color */
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            transition: opacity 0.3s ease-in-out;  /* Add transition effect */
+        }
+    
+        .news-item:hover::before {
+            opacity: 0.7; /* Show the background image on hover */
+        }
+    
+        .news-title {
+            margin-top: 0;
+            color: #333;
+        }
+    
+        .news-description {
+            color: #666;
+        }
+    
+        .source {
+            font-style: italic;
+            color: #888;
+        }
+    
+        .read-more {
+            position: absolute; /* Changed */
+            bottom: 10px; /* Adjusted */
+            left: 10px; /* Adjusted */
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+            padding: 5px 10px; /* Added padding */
+            background-color: rgba(255, 255, 255, 0.5); /* Added background color */
+            border-radius: 4px; /* Added border radius */
+        }
+    
+        .read-more:hover {
+            color: #0056b3;
+        }
+    </style>
+    
+
+    
+</head>
+<body>
+    <div class="news-container">
+        <h1>Agriculture News</h1>
+
+        <div class="news-grid">
+            {% for article in agriculture_news %}
+                <div class="news-item">
+                    <h3 class="news-title">{{ article.title }}</h3>
+                    <p class="news-description">{{ article.description }}</p>
+                    <br>
+                    <a class="read-more" href="{{ article.url }}" target="_blank">Read more</a>
+                     
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
+
+
+{% endblock %}

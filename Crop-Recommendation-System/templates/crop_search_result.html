@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+<title>Crop Search Result</title>
+<link rel="stylesheet" href="{% static 'CSS/crop_search_result.css' %}">
+
+<h1 style="text-align: center">Crop Search Result for {{ crop_name }}</h1>
+
+<div class="container-cropsearch-result">
+       
+    {% if crop_info %}
+    <h2>Information for {{crop_name}}:</h2>
+    <ul>
+    {% for line in crop_info.description %}
+        <li>{{ line }}</li>
+    {% endfor %}
+    </ul>
+    {% if crop_info.crop_image_url %}
+        <!-- Display the image if available -->
+        <img src="{{ crop_info.crop_image_url }}" alt="{{ crop_name }}" style="max-width: 400px; display: block; margin: 0 auto;">
+    {% endif %}
+{% else %}
+    <p>No information found for the specified crop.</p>
+{% endif %}
+
+
+    <!-- Back button to start afresh -->
+    <a href="{% url 'crop_search' %}" class="btn-back">Back</a>
+</div>
+
+{% endblock %}

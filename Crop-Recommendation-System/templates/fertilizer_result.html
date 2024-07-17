@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+<title>Fertilizer Recommendation System</title>
+<link rel="stylesheet" href="{% static 'CSS/fertilizer_result.css' %}">
+
+<h1 style="text-align: center">Fertilizer Recommendation System</h1>
+
+{% if recommendation %}
+
+
+
+    <div class="container">
+        
+        <div class="nutrient-box" id="nitrogen">
+            <h3>Nitrogen (N)</h3>
+            <p>{{ recommendation.n|safe }}</p>
+        </div>
+
+        <div class="nutrient-box" id="phosphorus">
+            <h3>Phosphorus (P)</h3>
+            <p>{{ recommendation.p|safe }}</p>
+        </div>
+
+        <div class="nutrient-box" id="potassium">
+            <h3>Potassium (K)</h3>
+            <p>{{ recommendation.k|safe }}</p>
+        </div>
+    </div>
+{% else %}
+    <p>No fertilizer recommendation needed.</p>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+<title>Crop Details</title>
+<link rel="stylesheet" href="{% static 'CSS/crop_search.css' %}">
+<h1 style="text-align: center">Crop Details</h1>
+<div class="container-cropsearch">
+    <div class="animate__animated animate__fadeInUp">
+        <form class="form" method="POST" action="{% url 'crop_search' %}">
+            {% csrf_token %}
+            <select name="crop_type" id="crop_type" required>
+                <option value="">Select Crop Type</option>
+                <option value="vegetable">Vegetable</option>
+                <option value="flower">Flower</option>
+                <option value="fruit">Fruit</option>
+            </select>
+            <select name="crop_name" id="crop_name" required>
+                <option value="" selected disabled>Select an option</option>
+                <!-- Options will be dynamically populated here -->
+            </select>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</div>
+
+<script>
+    // Define an object to hold crop names for each category
+    const cropNames = {
+        flower: ["Jasmine", "Blanket flower", "Gladiolus", "Marigold", "Aster", "Chrysanthemum", "Rose", "Jui", "Jai", "Mogra"],
+        fruit: ["Acid lime", "Sweet orange", "Mandarin", "Guava", "Sapota (Chikoo)", "Pomegranate", "Grape", "Banana", "Mango", "Muskmelon", "Watermelon"],
+        vegetable: ["Bitter_gourd", "Sponge_gourd", "Ridge_gourd", "Bottle_gourd", "Cucumber", "Cauliflower", "Cabbage", "Onion", "Okra", "Chilli", "Brinjal", "Potato", "Tomato"]
+    };
+
+    // Function to populate crop names based on selected crop type
+    function populateCropNames() {
+        const cropTypeSelect = document.getElementById("crop_type");
+        const cropNameSelect = document.getElementById("crop_name");
+        const selectedCropType = cropTypeSelect.value;
+        cropNameSelect.innerHTML = ""; // Clear previous options
+
+        if (selectedCropType) {
+            const crops = cropNames[selectedCropType];
+            crops.forEach(crop => {
+                const option = document.createElement("option");
+                option.text = crop;
+                option.value = crop;
+                cropNameSelect.appendChild(option);
+            });
+        }
+    }
+
+    // Event listener to trigger the population of crop names when crop type changes
+    document.getElementById("crop_type").addEventListener("change", populateCropNames);
+
+    // Initial population of crop names based on the default selected crop type
+    populateCropNames();
+</script>
+
+<style>
+    .container-cropsearch {
+        /* Add your container styles here */
+    }
+
+    .animate__animated.animate__fadeInUp > * {
+        animation-duration: 1s;
+        animation-delay: 0.5s;
+        /* Add other animation properties as needed */
+    }
+
+    select {
+        width: 100%; /* Ensure the dropdowns have the same width */
+        padding: 8px; /* Adjust padding as needed */
+    }
+</style>
+
+{% endblock %}

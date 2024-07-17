@@ -1,0 +1,147 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+<title>Fertilizer Recommendation System</title>
+<link rel="stylesheet" href="{% static 'CSS/crop.css' %}"> 
+<link rel="stylesheet" href="{% static 'animate/animate.min.css' %}"><!-- Using the same CSS file as crop recommendation page -->
+
+<style>
+    .container-crp-crop {
+        max-width: 600px;
+        margin: 50px auto 0;
+        
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        animation: fadeIn 1s ease-in-out forwards;
+    }
+
+    .crop-form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .btn-purple {
+        background-color: #6f42c1;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .btn-purple:hover,
+    .btn-purple:focus {
+        background-color: #563d7c;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+</style>
+
+<h2 style="text-align: center" >Fertilizer Recommendation System</h2>
+
+<div class="container-crp-crop animate__animated animate__fadeInUp">
+    <form action="{% url 'recommendation' %}" method="post" class="animate__animated animate__fadeInUp">
+        {% csrf_token %}
+        <div class="crop-form-group">
+            <label for="N">Enter ratio of Nitrogen </label>
+            <input type="number" required step="any" class="form-control" id="N" name="N" placeholder="Enter Nitrogen(N) Value e.g 56">
+        </div>
+        <div class="crop-form-group">
+            <label for="P">Enter ratio of Phosphorus</label>
+            <input type="number" required step="any" class="form-control" id="P" name="P" placeholder="Enter Phosphorus(P) Value e.g 65">
+        </div>
+        <div class="crop-form-group">
+            <label for="K">Enter ratio of Potassium</label>
+            <input type="number" required step="any" class="form-control" id="K" name="K" placeholder="Enter Potassium(K) Value  e.g 73">
+        </div>
+
+        <div class="form-group">
+            <label for="crop_name">Select Crop</label>
+            <select name="crop_name" class="form-control" id="crop_name" placeholder="Select a crop" required>
+                <option selected>Select crop</option>
+                <option>rice</option>
+                <option>maize</option>
+                <option>chickpea</option>
+                <option>kidneybeans</option>
+                <option>pigeonpeas</option>
+                <option>mothbeans</option>
+                <option>mungbean</option>
+                <option>blackgram</option>
+                <option>lentil</option>
+                <option>pomegranate</option>
+                <option>banana</option>
+                <option>mango</option>
+                <option>grapes</option>
+                <option>watermelon</option>
+                <option>muskmelon</option>
+                <option>apple</option>
+                <option>orange</option>
+                <option>papaya</option>
+                <option>coconut</option>
+                <option>cotton</option>
+                <option>jute</option>
+                <option>coffee</option>
+            </select>
+        </div>
+
+        <div class="mt-3"></div>
+        <div class="crop-form-group">
+            <button type="button" class="btn btn-info" onclick="startRecording()">Speak Input</button>
+        </div>
+
+        <div class="d-flex align-items-center justify-content-center">
+            <button type="submit" class="btn btn-purple text-white" id="Z">Predict</button>
+        </div>
+        <script>
+            function startRecording() {
+                const recognition = new webkitSpeechRecognition(); // For Chrome
+        
+                recognition.onresult = (event) => {
+                    const speechToText = event.results[0][0].transcript.toLowerCase();
+                    const inputFields = document.querySelectorAll('input[type="number"], input[type="text"]');
+                    for (const inputField of inputFields) {
+                        if (!inputField.value) {
+                            inputField.value = speechToText;
+                            break;
+                        }
+                    }
+        
+                    // Check if the spoken text contains "submit"
+                    if (speechToText.includes("submit")) {
+                        // Trigger form submission
+                        document.querySelector('form').submit();
+                    }
+                };
+        
+                recognition.start();
+            }
+        </script>
+    </form>
+</div>
+
+{% endblock %}

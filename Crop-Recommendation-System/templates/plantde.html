@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<title>Plant Disease Detection System - Coming Soon</title>
+
+<style>
+  body {
+    background-color: #f8f9fa; /* Background color */
+    color: #495057; /* Text color */
+    font-family: 'Arial', sans-serif; /* Font family */
+  }
+
+  .coming-soon-container {
+    text-align: center;
+    padding: 50px;
+    margin: 10% auto;
+    max-width: 600px;
+    background-color: #fff; /* Container background color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Container box shadow */
+    animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+  }
+
+  h1 {
+    color: #6f42c1; /* Header color */
+  }
+
+  p {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+</style>
+
+<div class="coming-soon-container">
+    <h1>Coming Soon</h1>
+    <p>We are working on something awesome. Stay tuned for the Plant Disease Detection System!</p>
+    <!-- You can add more details or customize the message as needed -->
+</div>
+
+{% endblock %}

@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.nutrient-box {
+    width: calc(100% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box shadow for a subtle glow */
+    transition: background-color 0.3s ease; /* Add a smooth transition for background color */
+    opacity: 0; /* Start with zero opacity for the animation effect */
+}
+
+.nutrient-box h3 {
+    color: #673ab7;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.nutrient-box p {
+    margin: 0;
+}
+
+.nutrient-box:hover {
+    background-color: #e0e0e0;
+}
+
+/* Animation for staggered appearance */
+/* Animation for staggered appearance */
+/* Animation for staggered appearance */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Move the element down initially */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Bring the element back to its original position */
+    }
+}
+
+.nutrient-box {
+    animation: fadeIn 1s ease-out forwards;
+    opacity: 0; /* Start with zero opacity for the animation effect */
+}
+
+.nutrient-box:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.nutrient-box:nth-child(2) {
+    animation-delay: 5s; /* Adjust the delay as needed */
+}
+
+.nutrient-box:nth-child(3) {
+    animation-delay: 9s; /* Adjust the delay as needed */
+}
+/* Add this CSS to your stylesheet */
+/* Add this CSS to your stylesheet */
+.nutrient-box ol,
+.nutrient-box ul {
+    -webkit-text-align: left; /* For older versions of WebKit browsers like Safari */
+    -moz-text-align: left; /* For Firefox */
+    text-align: left;
+    padding-left: 20px; /* Adjust the padding as needed */
+}
+
+.nutrient-box li {
+    list-style-position: outside;
+}
+

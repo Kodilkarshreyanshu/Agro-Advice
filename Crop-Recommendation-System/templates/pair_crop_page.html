@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+{% csrf_token %}
+<link rel="stylesheet" href="{% static 'CSS/crop.css' %}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+<script src="{% static 'Javascript/cities.js' %}"></script>
+<h1 style="text-align: center">Pair Cropping</h1>
+<div class="container-crp-crop">
+    <div class="animate__animated animate__fadeInUp">
+        <!-- pair_crop_page.html -->
+        <!-- pair_crop_page.html -->
+        <p>Please select an option:</p>
+        <ul>
+            <li><a href="{% url 'input_data' option='nitrogen' %}">Nitrogen Fixation</a></li>
+            <li><a href="{% url 'input_data' option='pest' %}">Pest</a></li>
+            <li><a href="{% url 'input_data' option='shade' %}">Shade</a></li>
+        </ul>
+    </div>
+</div>
+
+<style>
+    
+    .btn-purple {
+        background-color: #6f42c1;
+        color: #fff;
+        border-color: #6f42c1;
+    }
+
+    .btn-purple:hover,
+    .btn-purple:focus {
+        background-color: #563d7c;
+        border-color: #563d7c;
+    }
+</style>
+
+{% endblock %}

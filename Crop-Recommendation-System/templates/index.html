@@ -1,0 +1,231 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block content %}
+<title>{% trans "Home Page CRS" %}</title>
+<link rel="stylesheet" href="{% static 'CSS/homePage.css' %}">
+<link rel="stylesheet" href="{% static 'CSS/slideshow.css' %}">
+<link rel="icon" type="image/x-icon" href="{% static 'images/favicon.ico' %}">
+
+
+
+
+  <!-- banner -->
+
+
+<div class="home-page-container">
+    
+    <div class="header-image-container">
+        <div class="slideshow-container">
+          <!-- Images for the slideshow -->
+          <div class="mySlides ">
+            <img class="header-image" src="{% static 'images/font1.jpeg' %}" alt="Header Image 1">
+          </div>
+    
+          <div class="mySlides ">
+            <img class="header-image" src="{% static 'images/header1.jpeg' %}" alt="Header Image 2">
+          </div>
+          <div class="mySlides ">
+            <img class="header-image" src="{% static 'images/header2.jpeg' %}" alt="Header Image 2">
+          </div>
+          <div class="mySlides ">
+            <img class="header-image" src="{% static 'images/header3.jpeg' %}" alt="Header Image 1">
+          </div>
+    
+          <div class="mySlides ">
+            <img class="header-image" src="{% static 'images/header4.jpeg' %}" alt="Header Image 2">
+          </div>
+          <div class="mySlides ">
+            <img class="header-image" src="{% static 'images/header5.jpeg' %}" alt="Header Image 2">
+          </div>
+          <div class="mySlides ">
+            <img class="header-image" src="{% static 'images/header6.jpeg' %}" alt="Header Image 1">
+          </div>
+    
+          <div class="mySlides ">
+            <img class="header-image" src="{% static 'images/header7.jpeg' %}" alt="Header Image 2">
+          </div>
+          <div class="mySlides ">
+            <img class="header-image" src="{% static 'images/bg1.jpeg' %}" alt="Header Image 2">
+          </div>
+    
+          <!-- Add more slides as needed -->
+    
+          <!-- Navigation dots -->
+          
+        </div>
+        <div class="image-overlay">
+          <h1 id="welcomeText" style="color:aliceblue">{% trans "Welcome to AgroAdvice" %}</h1>
+          <p>{% trans "We can help you succeed in farming. Learn more about our services and how we can assist you." %}</p>
+          <button id="learn-more-button" class="learn-more-button">{% trans "Learn More" %}</button>
+      </div>
+      </div>
+
+
+      
+      
+
+<!-- Add a class 'animate' to the elements you want to animate -->
+<section class="core-value py-5 middleofhomepage animate">
+  <div class="container py-md-4">
+      <h2 class="heading mb-sm-5 mb-4 text-center">{% trans "Our Mission" %}</h2>
+      <div class="row core-grids">
+          <div class="col-lg-6 core-left">
+              <img src="{% static 'images/farmtech.jpeg' %}" class="img-fluid mission-image" alt="" />
+          </div>
+          <div class="col-lg-6 core-right">
+              <h3 class="mt-4">{% trans "Empowering sustainable agriculture through innovative digital solutions." %}</h3>
+              <p class="mt-3 mission-description">{% trans "We leverage cutting-edge machine learning and deep learning technologies to guide you through the entire agricultural journey. Make informed decisions by gaining insights into the demographics of your region. Understand the variables influencing your crops and ensure their well-being for a highly successful and rewarding yield. " %}</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<style>
+  .mission-image,
+  .mission-description {
+      opacity: 0; /* Initial opacity for fade-in effect */
+      transform: translateY(20px); /* Optional: Add a subtle upward movement */
+      transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  }
+
+  /* Add a class 'in-view' to trigger the animation */
+  .animate.in-view .mission-image,
+  .animate.in-view .mission-description {
+      opacity: 1;
+      transform: translateY(0);
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      // Function to check if an element is in the viewport
+      function isElementInViewport(el) {
+          const rect = el.getBoundingClientRect();
+          return (
+              rect.top >= 0 &&
+              rect.left >= 0 &&
+              rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+              rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+          );
+      }
+
+      // Function to handle scroll events
+      function handleScroll() {
+          const animatedElements = document.querySelectorAll('.animate');
+          animatedElements.forEach(element => {
+              if (isElementInViewport(element)) {
+                  element.classList.add('in-view');
+              }
+          });
+      }
+
+      // Initial check on page load
+      handleScroll();
+
+      // Add scroll event listener
+      window.addEventListener('scroll', handleScroll);
+  });
+</script>
+
+
+
+
+
+
+
+
+    
+
+    <h2 id="services-section" style="text-align: center">{% trans "Our Services" %}</h2>
+    <div id="services-section" class="service-container">
+      <div class="service-box">
+        <img src="{% static 'images/cropservice.jpeg' %}" alt="Service 1">
+        <h3><a href="/predi ctor">{% trans "Crop Prediction " %}</a></h3>
+        <p>{%trans "Receive precise crop yield predictions by analyzing a combination of factors including weather conditions, soil quality, and historical data. Strategically plan your agricultural activities to optimize productivity and enhance overall efficiency in farming operations." %}</p>
+      </div>
+      <div class="service-box">
+        <img src="{% static 'images/pair.jpeg' %}" alt="Service 2">
+        <h3><a href="/pair_crop_page">{%trans "Inter Crop" %}</a></h3>
+        <p>{%trans "Enhance your farming efficiency with intercropping, where multiple crops are grown together in the same field. Utilize complementary characteristics of different plants to maximize yield, improve soil health, and foster biodiversity, ensuring sustainable agricultural practices." %}</p>
+      </div>
+      <div class="service-box">
+        <img src="{% static 'images/fertilizer.jpg' %}" alt="Service 3">
+        <h3><a href="/fert_recommend">{% trans "Fertilizer" %}</a></h3>
+        <p>{% trans "Enhance fertilizer utilization through a comprehensive understanding of your crops' nutrient needs. Obtain personalized recommendations encompassing the type, quantity, and timing of fertilizer application. This ensures the promotion of healthy and robust plant growth, contributing to optimal agricultural yields. " %}</p>
+      </div>
+      <div class="service-box">
+        <img src="{% static 'images/crop_details.jpeg' %}" alt="Service 4">
+        <h3><a href="/crop_search">{% trans "Crop Details" %}</a></h3>
+        <p>{% trans "Explore in-depth details on diverse crop varieties, encompassing their growth habits, optimal growing conditions, and common challenges. Empower your decision-making process and augment your comprehension of various crops, facilitating informed choices in agricultural practices." %}</p>
+      </div>
+    </div>
+    </div>
+
+    
+  
+  
+    
+    
+
+
+    <script>
+      document.getElementById('learn-more-button').addEventListener('click', function() {
+          var servicesSection = document.getElementById('services-section');
+          servicesSection.scrollIntoView({ behavior: 'smooth' });
+      });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var text = "Welcome to AgroAdvice";
+    var speed = 40; // Time delay between each character (in milliseconds)
+    var element = document.getElementById("welcomeText");
+    var currentText = "";
+    
+    function displayText() {
+      if (currentText.length < text.length) {
+        // Add the next character to the displayed text
+        currentText += text[currentText.length];
+        element.innerHTML = currentText;
+        setTimeout(displayText, speed);
+      }
+    }
+
+    // Call the displayText function to start displaying the welcome text
+    displayText();
+  });
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+  var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    var slides = document.getElementsByClassName("mySlides");
+    for (var i = 0; i < slides.length; i++) {
+      slides[i].classList.remove("show");
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {
+      slideIndex = 1;
+    }
+    slides[slideIndex - 1].classList.add("show");
+    setTimeout(showSlides, 4000); // Change slide every 4 seconds
+  }
+});
+
+</script>
+
+      
+
+
+  
+
+{% endblock %}
+
+
+
+
+

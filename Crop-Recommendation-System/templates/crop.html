@@ -1,0 +1,170 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<title>Crop Recommendation System</title>
+<link rel="stylesheet" href="{% static 'CSS/crop.css' %}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+<script src="{% static 'Javascript/cities.js' %}"></script>
+
+
+<h1 style="text-align: center">Crop Recommendation System</h1>
+
+<div class="container-crp-crop">
+    {% if crop_result %}
+        <div class="crop-result">
+            <h3>Top Three Recommended Crops:</h3>
+            <ul>
+                {% for crop in top_three_crops %}
+                    <li>{{ crop }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <!-- Regular text output -->
+
+        <!-- Go back button and modal script -->
+        <form action="{% url 'predictor' %}" method="get">
+            <button type="submit" class="btn btn-purple text-white" id="goBackBtn">Go Back</button>
+        </form>
+        <div class="modal fade" id="pairCropModal" tabindex="-1" role="dialog" aria-labelledby="pairCropModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header" style="background-color: #6f42c1; color: white;">
+                        <h5 class="modal-title text-center" id="pairCropModalLabel" style="font-size: 1.5rem; text-align: center;">Optimize Your Crop Selection</h5>
+                        <button type="button" class="close" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" style="font-size: 1rem;">
+                        <img src="{% static 'images/pair.jpeg' %}" class="img-fluid mission-image" alt="">
+                        <p style="font-size: 1rem; margin-top: 20px;">Consider trying pair cropping for better results.</p>
+                        <a href="{% url 'pair_crop_page' %}" class="btn btn-primary btn-sm d-inline-block" style="margin-top: 5px; background-color: #6f42c1;">Learn more.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal script -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script>
+            // Show the modal after 3 seconds
+            setTimeout(function() {
+                $('#pairCropModal').modal('show');
+            }, 3000);
+
+            // Add event listener for modal close button
+            $(document).ready(function() {
+                const closeBtn = $('#pairCropModal').find('.close');
+                const modalMenu = $('#pairCropModal');
+                closeBtn.on('click', function() {
+                    modalMenu.modal('hide');
+                });
+            });
+        </script>
+            
+              
+        </div>
+        
+    {% else %}
+    
+        <form action="{% url 'crop_result' %}" method="post" class="animate__animated animate__fadeInUp">
+            {% csrf_token %}
+
+            <div class="crop-form-group">
+                <label for="N">Enter ratio of Nitrogen:</label>
+                <input type="number" required step="any" class="form-control" id="N" name="N" placeholder="e.g. 56">
+            </div>
+            <div class="crop-form-group">
+                <label for="P">Enter ratio of Phosphorus:</label>
+                <input type="number" required step="any" class="form-control" id="P" name="P" placeholder="e.g. 65">
+            </div>
+            <div class="crop-form-group">
+                <label for="K">Enter ratio of Potassium:</label>
+                <input type="number" required step="any" class="form-control" id="K" name="K" placeholder="e.g. 73">
+            </div>
+
+            <div class="crop-form-group">
+                <label for="ph">Enter pH Value of the soil:</label>
+                <input type="number" required step="any" class="form-control" id="ph" name="ph" placeholder="e.g. 6">
+            </div>
+            <div class="crop-form-group">
+                <label for="R">Enter average amount of Rainfall:</label>
+                <input type="number" required step="any" class="form-control" id="R" name="R" placeholder="e.g. 189">
+            </div>
+
+            <div class="crop-form-group">
+                <label for="state"><b>State:</b></label>
+                <select onchange="print_city('state', this.selectedIndex);" id="sts" name="stt" class="form-control" required></select>
+            </div>
+            <div class="crop-form-group">
+                <label for="city_name"><b>City:</b></label>
+                <select id="state" class="form-control" name="city_name" required></select>
+                <script language="javascript">
+                    print_state("sts");
+                </script>
+            </div>
+            <div class="crop-form-group">
+                <button type="button" class="btn btn-info" onclick="startRecording()">Speak Input</button>
+            </div>
+            <div class="crop-form-group">
+                <div class="language-section">
+                    <label for="en">Select Language:</label>
+                    <div class="custom-radio-group">
+                        <div class="custom-radio">
+                            <input type="radio" id="en" name="language" value="en" checked>
+                            <label for="en">English</label>
+                        </div>
+                        <div class="custom-radio">
+                            <input type="radio" id="hi" name="language" value="hi">
+                            <label for="hi">Hindi</label>
+                        </div>
+                        <div class="custom-radio">
+                            <input type="radio" id="mr" name="language" value="mr">
+                            <label for="mr">Marathi</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-3"></div>
+
+            <div class="d-flex align-items-center justify-content-center">
+                <button type="submit" id="S" class="btn btn-purple text-white animate__animated animate__fadeIn delay-1s">Predict</button>
+            </div>
+        </form>
+    {% endif %}
+</div>
+
+<script>
+    function startRecording() {
+        const recognition = new webkitSpeechRecognition(); // For Chrome
+
+        recognition.onresult = (event) => {
+            const speechToText = event.results[0][0].transcript.toLowerCase();
+            const inputFields = document.querySelectorAll('input[type="number"], input[type="text"]');
+            for (const inputField of inputFields) {
+                if (!inputField.value) {
+                    inputField.value = speechToText;
+                    break;
+                }
+            }
+
+            // Check if the spoken text contains "submit"
+            if (speechToText.includes("submit")) {
+                // Trigger form submission
+                document.querySelector('form').submit();
+            }
+        };
+
+        recognition.start();
+    }
+</script>
+
+
+
+{% endblock %}
